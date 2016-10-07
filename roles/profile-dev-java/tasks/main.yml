@@ -12,6 +12,9 @@
     - gradle
     - maven
 
+- name: copy maven global settings
+  command: "cp files/maven_settings.xml /usr/local/Cellar/maven/`brew info maven | grep 'stable' | sed 's/[^0-9.]*//g'`/libexec/conf/settings.xml"
+  
 - name: install java IDE cask applications
   homebrew_cask: name={{ item }} state=present
   with_items: "{{ install_ides }}"
