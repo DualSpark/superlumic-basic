@@ -1,6 +1,6 @@
 ---
-kubectl_version: "1.4.0"
-kubectl_checksum: "sha256:c9945d10a1c322861796d4ecc3934330b50a8225cdfab33665fbf401d538e7dc"
+kubectl_version: "1.4.4"
+kubectl_checksum: "sha256:5940c5d32e33a1c0b42998083064112f6ea7f02d9dc5e2b4f51c01f583a6be4d."
 
-minikube_version: "0.11.0"
-minikube_checksum: "sha256:7fe7ce35eda959d91071d065141d040053b945d5af0d57f98eb18afb93a4c921"
+minikube_version: "0.12.0"
+minikube_checksum: "sha256:a96d6e1d53a7999503d00bcd41b4ccaa80f5d57f798608f03e3f4d63a42f9991."
